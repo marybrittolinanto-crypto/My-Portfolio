@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Management System Report</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.report-box {
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    margin: 40px auto;
+}
+
+h1 {
+    color: #ff3c3c;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ff3c3c;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="report-box">
+
+<h1>Hospital Management System Using SQL</h1>
+
+<h2>1. Introduction</h2>
+<p>
+The Hospital Management System is a database management project developed using SQL (Structured Query Language) to manage and organize hospital-related information efficiently. The main purpose of this project is to reduce manual work, improve data accuracy, and maintain hospital records in an organized digital format.
+</p>
+
+<p>
+The system helps manage patient details, doctor schedules, room allocation, appointment records, medicines, billing details, and staff information efficiently using SQL database management.
+</p>
+
+<h2>2. Objective of the Project</h2>
+<p>
+The main objective of this project is to create an efficient database system for managing hospital operations using SQL.
+</p>
+
+<ul>
+<li>To maintain patient information systematically</li>
+<li>To manage doctor and department details</li>
+<li>To schedule appointments</li>
+<li>To maintain room allocation details</li>
+<li>To manage billing information</li>
+<li>To reduce manual paperwork</li>
+<li>To implement advanced SQL concepts</li>
+</ul>
+
+<h2>3. Database Tables Used</h2>
+<ul>
+<li><b>Departments</b> – Stores department details</li>
+<li><b>Doctors</b> – Stores doctor information</li>
+<li><b>Patients</b> – Maintains patient details</li>
+<li><b>Nurses</b> – Stores nurse information</li>
+<li><b>Rooms</b> – Maintains room allocation details</li>
+<li><b>Appointments</b> – Stores appointment details</li>
+<li><b>Admissions</b> – Manages patient admissions</li>
+<li><b>Medicines</b> – Stores medicine details</li>
+<li><b>Bills</b> – Maintains billing details</li>
+<li><b>Staff</b> – Stores staff details</li>
+<li><b>Users</b> – Stores login information</li>
+</ul>
+
+<h2>4. SQL Concepts Used</h2>
+
+<h3>4.1 JOIN Operations</h3>
+<p>
+JOIN operations were used to connect multiple tables and retrieve related information efficiently. Doctor and Department JOIN was used to display doctor specialization and department details. Patient and Doctor Appointment JOIN was used to retrieve appointment information.
+</p>
+
+<h3>4.2 Aggregate Function</h3>
+<p>
+The SUM() function was used to calculate the total hospital income from bills.
+</p>
+
+<h3>4.3 View</h3>
+<p>
+A View named hospital_view was created to simplify appointment-related data retrieval.
+</p>
+
+<h3>4.4 Stored Procedure</h3>
+<p>
+A stored procedure named patient_details() was created to display patient details including name, age, and blood group.
+</p>
+
+<h3>4.5 Function</h3>
+<p>
+A function named room_tax() was created to calculate 5% tax on room charges.
+</p>
+
+<h3>4.6 Trigger</h3>
+<p>
+A trigger named patient_insert_trigger was implemented to automatically store new patient records in the audit log table.
+</p>
+
+<h2>5. Advantages of the System</h2>
+<ul>
+<li>Organized hospital record management</li>
+<li>Reduced paperwork</li>
+<li>Faster patient information retrieval</li>
+<li>Better appointment scheduling</li>
+<li>Efficient billing management</li>
+<li>Secure database handling</li>
+<li>Automation using SQL triggers and procedures</li>
+</ul>
+
+<h2>6. Conclusion</h2>
+<p>
+The Hospital Management System using SQL demonstrates how database management techniques can improve hospital operations. The project implements advanced SQL concepts such as JOIN, Views, Stored Procedures, Functions, and Triggers to improve efficiency and automation.
+</p>
+
+</div>
+</div>
+
+</body>
+</html>
+```
